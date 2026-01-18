@@ -1,0 +1,25 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../4_bit_shift_reg_IP.gen/sources_1/bd/design_2",
+      "name": "design_2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1"
+    },
+    "design_tree": {
+      "fir_compiler_0": ""
+    },
+    "components": {
+      "fir_compiler_0": {
+        "vlnv": "xilinx.com:ip:fir_compiler:7.2",
+        "ip_revision": "22",
+        "xci_name": "design_2_fir_compiler_0_0",
+        "xci_path": "ip\\design_2_fir_compiler_0_0\\design_2_fir_compiler_0_0.xci",
+        "inst_hier_path": "fir_compiler_0"
+      }
+    }
+  }
+}

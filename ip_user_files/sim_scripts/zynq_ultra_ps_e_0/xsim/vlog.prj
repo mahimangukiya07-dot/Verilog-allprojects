@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" --include "../../../ipstatic/hdl" \
+"../../../../zynq_ultra_ps_e_0/sim/zynq_ultra_ps_e_0_vip_wrapper.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

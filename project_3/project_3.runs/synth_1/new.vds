@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Feb 23 13:21:15 2025
+# Process ID: 19584
+# Current directory: C:/Users/mahim/project_3/project_3.runs/synth_1
+# Command line: vivado.exe -log new.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source new.tcl
+# Log file: C:/Users/mahim/project_3/project_3.runs/synth_1/new.vds
+# Journal file: C:/Users/mahim/project_3/project_3.runs/synth_1\vivado.jou
+# Running On        :MAHI2067
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 7 7730U with Radeon Graphics         
+# CPU Frequency     :1996 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :14861 MB
+# Swap memory       :3029 MB
+# Total Virtual     :17891 MB
+# Available Virtual :2991 MB
+#-----------------------------------------------------------
+source new.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 506.457 ; gain = 201.031
+Command: synth_design -top new -part xck26-sfvc784-2LV-c
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7108
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 963.391 ; gain = 452.949
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2716] syntax error near 'design' [C:/Users/mahim/project_3/project_3.srcs/sources_1/new/new design.v:23]
+INFO: [Synth 8-9084] Verilog file 'C:/Users/mahim/project_3/project_3.srcs/sources_1/new/new design.v' ignored due to errors
+ERROR: [Synth 8-439] module 'new' not found
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1072.523 ; gain = 562.082
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 23 13:21:33 2025...

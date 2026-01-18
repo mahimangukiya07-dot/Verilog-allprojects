@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Feb 23 12:33:18 2025
+# Process ID: 4352
+# Current directory: C:/Users/mahim/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/Users/mahim/project_2/project_2.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/mahim/project_2/project_2.runs/synth_1\vivado.jou
+# Running On        :MAHI2067
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 7 7730U with Radeon Graphics         
+# CPU Frequency     :1996 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :14861 MB
+# Swap memory       :2281 MB
+# Total Virtual     :17143 MB
+# Available Virtual :5052 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

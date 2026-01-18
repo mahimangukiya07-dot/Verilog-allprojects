@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Sep 17 18:35:20 2025
+# Process ID: 8044
+# Current directory: C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1
+# Command line: vivado.exe -log design_1_zynq_ultra_ps_e_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_zynq_ultra_ps_e_0_0.tcl
+# Log file: C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/design_1_zynq_ultra_ps_e_0_0.vds
+# Journal file: C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1\vivado.jou
+# Running On        :Granthi
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 7 7730U with Radeon Graphics         
+# CPU Frequency     :1996 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :14861 MB
+# Swap memory       :2281 MB
+# Total Virtual     :17143 MB
+# Available Virtual :5161 MB
+#-----------------------------------------------------------
+source design_1_zynq_ultra_ps_e_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 514.777 ; gain = 202.199
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_zynq_ultra_ps_e_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 551be3bf4d316d1e to dir: C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/mahim/project_4/project_4.cache/ip/2024.1/5/5/551be3bf4d316d1e/design_1_zynq_ultra_ps_e_0_0.dcp to C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/design_1_zynq_ultra_ps_e_0_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/mahim/project_4/project_4.cache/ip/2024.1/5/5/551be3bf4d316d1e/design_1_zynq_ultra_ps_e_0_0_sim_netlist.v to C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/design_1_zynq_ultra_ps_e_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/mahim/project_4/project_4.cache/ip/2024.1/5/5/551be3bf4d316d1e/design_1_zynq_ultra_ps_e_0_0_sim_netlist.vhdl to C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/design_1_zynq_ultra_ps_e_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/mahim/project_4/project_4.cache/ip/2024.1/5/5/551be3bf4d316d1e/design_1_zynq_ultra_ps_e_0_0_stub.v to C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/design_1_zynq_ultra_ps_e_0_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/mahim/project_4/project_4.cache/ip/2024.1/5/5/551be3bf4d316d1e/design_1_zynq_ultra_ps_e_0_0_stub.vhdl to C:/Users/mahim/project_4/project_4.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/design_1_zynq_ultra_ps_e_0_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_zynq_ultra_ps_e_0_0, cache-ID = 551be3bf4d316d1e.
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 17 18:35:34 2025...

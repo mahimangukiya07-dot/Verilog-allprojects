@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../project_4.gen/sources_1/ip/microblaze_0/sim/microblaze_0.vhd" \
+
+# Do not sort compile order
+nosort

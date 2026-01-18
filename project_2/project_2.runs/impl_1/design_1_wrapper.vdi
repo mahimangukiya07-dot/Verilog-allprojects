@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Feb 23 12:34:26 2025
+# Process ID: 21012
+# Current directory: C:/Users/mahim/project_2/project_2.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Users/mahim/project_2/project_2.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/mahim/project_2/project_2.runs/impl_1\vivado.jou
+# Running On        :MAHI2067
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 7 7730U with Radeon Graphics         
+# CPU Frequency     :1996 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :14861 MB
+# Swap memory       :2281 MB
+# Total Virtual     :17143 MB
+# Available Virtual :5037 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 505.504 ; gain = 198.918
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+Command: link_design -top design_1_wrapper -part xck26-sfvc784-2LV-c
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+WARNING: [Device 21-9] Clock region file  is not available
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mahim/project_2/project_2.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_1_0/design_1_zynq_ultra_ps_e_1_0.dcp' for cell 'design_1_i/zynq_ultra_ps_e_1'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1546.559 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/mahim/project_2/project_2.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_1_0/design_1_zynq_ultra_ps_e_1_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_1/inst'
+Finished Parsing XDC File [c:/Users/mahim/project_2/project_2.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_1_0/design_1_zynq_ultra_ps_e_1_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_1/inst'
+Parsing XDC File [C:/Users/mahim/project_2/project_2.srcs/constrs_1/new/mahi.xdc]
+Finished Parsing XDC File [C:/Users/mahim/project_2/project_2.srcs/constrs_1/new/mahi.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Device 21-2168] Failed to load clock programmable delays in NTD flow
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1648.906 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+9 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1648.906 ; gain = 1079.645
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1679.434 ; gain = 30.527
+
+Starting Cache Timing Information Task
+Ending Cache Timing Information Task | Checksum: 1ab947bd0
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.126 . Memory (MB): peak = 1679.434 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 1 Warnings, 1 Critical Warnings and 1 Errors encountered.
+opt_design failed
+ERROR: [Common 17-577] Internal error: Cannot run timing on a non-timing device
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 23 12:34:55 2025...

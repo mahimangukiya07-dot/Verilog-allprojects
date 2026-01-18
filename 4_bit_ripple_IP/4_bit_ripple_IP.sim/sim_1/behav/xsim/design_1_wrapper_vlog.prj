@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../4_bit_ripple_IP.srcs/sources_1/new/fa.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_fa_0_0/sim/design_1_fa_0_0.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_fa_0_1/sim/design_1_fa_0_1.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_fa_0_2/sim/design_1_fa_0_2.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_fa_0_3/sim/design_1_fa_0_3.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_xlslice_0_2/sim/design_1_xlslice_0_2.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_xlslice_0_3/sim/design_1_xlslice_0_3.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_xlslice_0_4/sim/design_1_xlslice_0_4.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_xlslice_1_0/sim/design_1_xlslice_1_0.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_xlslice_2_0/sim/design_1_xlslice_2_0.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_xlslice_2_1/sim/design_1_xlslice_2_1.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" \
+"../../../../4_bit_ripple_IP.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../4_bit_ripple_IP.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,21 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-359,-125",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port port-id_en -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace portBus dout -pg 1 -lvl 3 -x 480 -y 240 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 330 -y 130 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 1 -x 110 -y 60 -defaultsOSRD
+preplace netloc c_counter_binary_0_Q 1 1 1 200J 60n
+preplace netloc CLK_0_1 1 0 2 10 130 NJ
+preplace netloc ena_0_1 1 0 2 20J 170 NJ
+preplace netloc blk_mem_gen_0_douta 1 1 2 230 240 NJ
+levelinfo -pg 1 -10 110 330 480
+pagesize -pg 1 -db -bbox -sgen -80 -10 600 260
+"
+}
+0

@@ -1,0 +1,37 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.927036",
+   "Default View_TopLeft":"-1138,-654",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_cin -pg 1 -lvl 0 -x -1040 -y -150 -defaultsOSRD
+preplace portBus ain -pg 1 -lvl 0 -x -1040 -y -340 -defaultsOSRD
+preplace portBus bin -pg 1 -lvl 0 -x -1040 -y -570 -defaultsOSRD
+preplace portBus sum -pg 1 -lvl 4 -x 510 -y -450 -defaultsOSRD
+preplace inst hier_0 -pg 1 -lvl 1 -x -890 -y -340 -defaultsOSRD
+preplace inst hier_1 -pg 1 -lvl 1 -x -890 -y -540 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x -350 -y -450 -defaultsOSRD
+preplace inst hier_2 -pg 1 -lvl 2 -x -650 -y -440 -defaultsOSRD
+preplace netloc ain_1 1 0 1 NJ -340
+preplace netloc xlslice_1_Dout 1 1 1 -760 -480n
+preplace netloc xlslice_2_Dout 1 1 1 -770 -520n
+preplace netloc xlslice_3_Dout 1 1 1 -720J -440n
+preplace netloc xlslice_0_Dout 1 1 1 -750 -400n
+preplace netloc bin_1 1 0 1 -1020 -570n
+preplace netloc xlslice_4_Dout 1 1 1 -740 -570n
+preplace netloc xlslice_5_Dout 1 1 1 -720 -550n
+preplace netloc xlslice_6_Dout 1 1 1 -730 -530n
+preplace netloc xlslice_7_Dout 1 1 1 -780J -510n
+preplace netloc cin_0_1 1 0 2 -1020J -430 -790J
+preplace netloc fa_2_s 1 2 1 -570 -490n
+preplace netloc fa_3_s 1 2 1 -560 -470n
+preplace netloc fa_1_s 1 2 1 -550 -480n
+preplace netloc fa_0_s 1 2 1 -580J -440n
+preplace netloc xlconcat_0_dout 1 3 1 N -450
+preplace netloc fa_0_cout 1 2 1 -580J -420n
+levelinfo -pg 1 -1040 -890 -650 -350 510
+pagesize -pg 1 -db -bbox -sgen -1140 -1240 630 210
+"
+}
+

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="70.866 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="258"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/b" type="array">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/c" type="array">
+      <obj_property name="ElementShortName">c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/e" type="array">
+      <obj_property name="ElementShortName">e[7:0]</obj_property>
+      <obj_property name="ObjectShortName">e[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f" type="array">
+      <obj_property name="ElementShortName">f[7:0]</obj_property>
+      <obj_property name="ObjectShortName">f[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/g" type="array">
+      <obj_property name="ElementShortName">g[7:0]</obj_property>
+      <obj_property name="ObjectShortName">g[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/h" type="array">
+      <obj_property name="ElementShortName">h[7:0]</obj_property>
+      <obj_property name="ObjectShortName">h[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/sel" type="array">
+      <obj_property name="ElementShortName">sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/ta" type="array">
+      <obj_property name="ElementShortName">ta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ta[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tb" type="array">
+      <obj_property name="ElementShortName">tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tc" type="array">
+      <obj_property name="ElementShortName">tc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/td" type="array">
+      <obj_property name="ElementShortName">td[7:0]</obj_property>
+      <obj_property name="ObjectShortName">td[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/te" type="array">
+      <obj_property name="ElementShortName">te[7:0]</obj_property>
+      <obj_property name="ObjectShortName">te[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tf" type="array">
+      <obj_property name="ElementShortName">tf[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tf[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tg" type="array">
+      <obj_property name="ElementShortName">tg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/th" type="array">
+      <obj_property name="ElementShortName">th[7:0]</obj_property>
+      <obj_property name="ObjectShortName">th[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tsel" type="array">
+      <obj_property name="ElementShortName">tsel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tsel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/temp" type="array">
+      <obj_property name="ElementShortName">temp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[7:0]</obj_property>
+   </wvobject>
+</wave_config>

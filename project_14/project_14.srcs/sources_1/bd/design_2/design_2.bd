@@ -1,0 +1,126 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x984F3AA96FA9DB03",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../project_14.gen/sources_1/bd/design_2",
+      "name": "design_2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "h0": "",
+      "h1": "",
+      "o1": ""
+    },
+    "ports": {
+      "a": {
+        "direction": "I"
+      },
+      "b": {
+        "direction": "I"
+      },
+      "cin": {
+        "direction": "I"
+      },
+      "sum": {
+        "direction": "O"
+      },
+      "carry": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "h0": {
+        "vlnv": "xilinx.com:user:half_adder:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_2_half_adder_0_0",
+        "xci_path": "ip\\design_2_half_adder_0_0\\design_2_half_adder_0_0.xci",
+        "inst_hier_path": "h0"
+      },
+      "h1": {
+        "vlnv": "xilinx.com:user:half_adder:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_2_half_adder_0_1",
+        "xci_path": "ip\\design_2_half_adder_0_1\\design_2_half_adder_0_1.xci",
+        "inst_hier_path": "h1"
+      },
+      "o1": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "ip_revision": "4",
+        "xci_name": "design_2_util_vector_logic_0_0",
+        "xci_path": "ip\\design_2_util_vector_logic_0_0\\design_2_util_vector_logic_0_0.xci",
+        "inst_hier_path": "o1",
+        "parameters": {
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a",
+          "h0/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b",
+          "h0/b"
+        ]
+      },
+      "b_1_1": {
+        "ports": [
+          "cin",
+          "h1/b"
+        ]
+      },
+      "h0_carry": {
+        "ports": [
+          "h0/carry",
+          "o1/Op2"
+        ]
+      },
+      "h0_sum": {
+        "ports": [
+          "h0/sum",
+          "h1/a"
+        ]
+      },
+      "h1_carry": {
+        "ports": [
+          "h1/carry",
+          "o1/Op1"
+        ]
+      },
+      "h1_sum": {
+        "ports": [
+          "h1/sum",
+          "sum"
+        ]
+      },
+      "o1_Res": {
+        "ports": [
+          "o1/Res",
+          "carry"
+        ]
+      }
+    }
+  }
+}

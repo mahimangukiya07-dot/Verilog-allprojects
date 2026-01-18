@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Nov  3 14:38:58 2025
+# Process ID: 23140
+# Current directory: C:/Users/mahim/project_13/project_13.runs/synth_1
+# Command line: vivado.exe -log bram_mux.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram_mux.tcl
+# Log file: C:/Users/mahim/project_13/project_13.runs/synth_1/bram_mux.vds
+# Journal file: C:/Users/mahim/project_13/project_13.runs/synth_1\vivado.jou
+# Running On        :Granthi
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 7730U with Radeon Graphics         
+# CPU Frequency     :1996 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :14861 MB
+# Swap memory       :939 MB
+# Total Virtual     :15801 MB
+# Available Virtual :3242 MB
+#-----------------------------------------------------------
+source bram_mux.tcl -notrace
